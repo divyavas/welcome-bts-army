@@ -1,0 +1,78 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+body{
+	background-image: url(btsbackground.png);
+}
+
+a{
+	text-align: center;
+	text-decoration: underline;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Poiret One", cursive;
+	color: pink;
+}
+h1, h2 {
+	text-align: center;
+	text-decoration: underline;
+	border: 5px dashed purple;
+	line-height: 60px;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: fantasy;
+	font-size: 3em;
+	width: 500px;
+	color: pink;
+	box-shadow: 4px 4px 5px #888888;
+}
+
+
+p {
+	line-height: 50px;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Poiret One", cursive;
+	color: purple;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: pink;
+	border-color: pink;
+}
+
+.btn-primary:hover {
+	background-color: purple;
+	border-color: purple;
+	border-width: 4px;
+}
+.btn-xl {
+	padding: 1rem 2rem;
+
+}
+img {
+	float: left;
+	color: purple;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover {
+	transform: scale(1.1);
+}

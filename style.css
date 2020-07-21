@@ -1,0 +1,57 @@
+/*Selector {
+	Property: value;
+}*/
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img {
+	color: purple;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+}
+body{
+	background-image: url(btsbackground.png);
+}
+
+ul{
+	text-align: center;
+}
+h1, p{
+	color: purple;
+	text-align: center;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	
+}
+h2, h3, h1 {
+	text-align: center;
+	color: pink;
+	border: 5px solid purple;
+}
+h2 + p {
+	color: purple;
+	text-align: center;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	cursor: pointer;
+}
+
+p, h1, h2, h3, li, strong {
+
+	text-decoration: underline;
+	line-height: 20px;
+	font-weight: bold;
+	font-size: 150%;
+	font-family: "Poiret One", cursive;
+  
+ }
+
+li {
+	color: purple;
+	text-align: center;
+	display: inline-block;
+}
+

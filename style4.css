@@ -1,0 +1,23 @@
+body{
+	background-image: url(btsbackground.png);
+}
+
+h1, p, img {
+	color: purple;
+	text-align: center;
+	border: 5px dashed rgba(255, 176, 170, 0.5);
+	line-height: 20px;
+	font-size: 150%;
+	font-family: "Poiret One", cursive;
+}
+
+h2 {
+	text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
